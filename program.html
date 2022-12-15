@@ -1,0 +1,155 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title>Youth Club Nepal</title>
+     <link rel="stylesheet"href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/ycn.png" style="height: 150px;width: 150px;"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                        
+                <a href="Membership.html" class="hero-btn">Become a member</a>
+                <a href="donate.html" class="hero-btn">Donate</a>
+                
+                   
+                <i class="fa fa-times" onclick="hideMenu()"></i>   
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="program.html">WHAT WE DO</a></li>
+                     <li><a href="Membership.html">MEMBERSHIP </a></li>
+                    <li><a href="">OUR EVENTS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+                
+            </div>
+            <i class="fa fa-caret-down" onclick="showMenu()"></i>
+        </nav>
+<br>
+<br><br><br>
+        <h2 style="color:white ";>"Never put off till tomorrow what you can do today."<br>- Lord Chesterfield</h2>
+        </section>
+
+    <!---about us element-->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <div class="Membership-col">
+                    <h1 style="text-align: left;">What we do?</h1>
+                    
+                </div>
+                
+            <h2> Supporting and challenging young generation to become the best they can be.....</h2>
+            <p> Across the country young people need opportunities outside education and the home to have fun with their friends, to be healthy and creative,
+                to make positive change in their communities, and to shape the kind of city they want for the future.</p>
+           <a href="" class="hero-btn red-btn">EXPLORE NOW</a> 
+        </div>
+        <div class="about-col">
+            <img src="images/to.jpg"> 
+        </div>
+        </div>
+    </section>
+    <section class="Programs">
+        <div class="Membership-col">
+            <h1 style="text-align: center;">Find out more about our work</h1>
+            
+        </div>
+        
+        <h3>We do various kinds of social awareness programs to help society. Our members do actively participate in various programs. Following are the various programs we often do.</h3>
+    
+        <div class="row">
+            <div class="Programs-col">
+                <img src="images/download (2).jpg">
+                <h3>Tree Plantation</h3>
+                <p>We do various tree plantation events throught the nation where our members live. We pant trees as the vital part of our mega project. Mainly the date of birth of our memebers and their family members are days to plant trees. </p>
+                <a href="tree.html" class="link-Find out more">Find Out More</a>  
+            </div>
+            <div class="Programs-col">
+                <img src="images/download (3).jpg">
+                <h3>Social Awareness</h3>
+                <p>Each and every member of our club are engaged in the social awareness activites. They stop various social voilences that are happening in the society.</p>
+                <a href="socialawarness.html" class="link-Find out more">Find Out More</a>  
+            </div>
+            <div class="Programs-col">
+                <img src="images/download (5).jpg">
+                <h3>Blood Donation</h3>
+                <p>Our club organizes blood donation campaings in every 3 months in order to help the blood banks. Youth are likely to be the most active donors in the society.</p>
+                <a href="blooddonation.html" class="link-Find out more">Find Out More</a>  
+            </div>
+        </div>
+    </section>
+    
+<script>
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right="0";
+
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+        
+    }
+</script>
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+  <img src="images/ycn.png">
+<h3>Youth Club<span> Nepal</span></h3> 
+
+        <p class="footer-links">
+            <a href="#">Home</a>
+            |
+            <a href="#">Blog</a>
+            |
+            <a href="#">About</a>
+            |
+            <a href="#">Contact</a>
+
+        </p> 
+    </div>
+
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+              <p><span>NityaNath marg</span> Thahity-Kathmandu, Nepal</p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>977 9840708961</p>
+
+
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@youthclub.com">support@youthclub.com</a></p>
+        </div>
+        <p class="footer-company-name">© Youth Club Nepal 2022</p>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>About the company</span>
+            We actively involve young generation in social work,gives<br>  training and skill building 
+            campaigns.</p>
+        <div class="footer-icons">
+            <a href="https://www.facebook.com/youthfordevelopmentandsupport"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+    </div>
+</footer>
+
+    
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title>Youth Club Nepal</title>
+     <link rel="stylesheet"href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+   <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/ycn.png" style="height: 150px;width: 150px;"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+                 
+            <a href="Membership.html" class="hero-btn">Become a member</a>
+            <a href="donate.html" class="hero-btn">Donate</a>
+         
+      
+          
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="program.html">WHAT WE DO</a></li>
+            <li><a href="Membership.html">MEMBERSHIP </a></li>
+            <li><a href="">OUR EVENTS</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-caret-down" onclick="showMenu()"></i>
+    </nav>
+    <br>
+    <br><br>
+    <h2 >"Coming out is a means of redefining oneself, of claiming membership in a lifestyle and a social order 
+        with distinct values. Chief among these values is honesty."<br><br>-Lance Loud </h2>
+</section>
+<section class="Membership">
+    <div class="Membership-col">
+        <h1 style="text-align: center;">Membership we offer</h1>
+        
+    </div>
+    <p>We offer three different membership palns according to engaement of people in our club and their roles. The Membership  plans are as following; </p>
+   <div class="row">
+       <div class="Membership-col">
+           <h3>Lifetime Membership</h3>
+           <P>Active members who played a role to establish this club are honoured with this membership. Any new member who wishes to be in this category must serve the club for atleast of 10 years actively. 
+           </P>
+       </div>
+       <div class="Membership-col">
+           <h3>Five Year Membership</h3>
+           <P>Any active members who serve as a member of club for at least 2 years are eligible for this membership.</P>
+       </div>
+       <div class="Membership-col">
+           <h3>One Year</h3>
+           <P>New person who wants to be a member of club and has a true spirit to serve the nation is welcomed by the club.</P>
+       </div>
+   </div>
+</section>
+    
+
+<script>
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right="0";
+
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+        
+    }
+</script>
+<br>
+<br>
+<br>
+<section>
+
+<div>
+    <section class="Membership">
+        <div class="Membership-col">
+            <h1 style="text-align: center;">How do I join?</h1>
+            
+        </div>
+    
+    <br>
+    <h2 style="text-align: center;">Let's be a member of YOUTH CLUB NEPAL</h2><br><br>
+    <p style="text-align: center;">To become a Youth Club Nepal member, your organisation must operate and deliver activities in country that 
+        engage and benefit young people under 25. Youth club members benefit from free training, network events, 
+        employability and youth action programmes, the opportunity to achieve our Quality Mark, and much more.</p>
+<br>
+
+<h3 style="text-align: center;">To be a member you have to join us and fill the membership
+     registration form followed by  link <a href="membershipform.html" class="link-Find out more" >Click Here!!</a> 
+</h3></div>
+</section>
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+  <img src="images/ycn.png">
+<h3>Youth Club<span> Nepal</span></h3> 
+
+        <p class="footer-links">
+            <a href="#">Home</a>
+            |
+            <a href="#">Blog</a>
+            |
+            <a href="#">About</a>
+            |
+            <a href="#">Contact</a>
+
+        </p> 
+    </div>
+
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+              <p><span>NityaNath marg</span> Thahity-Kathmandu, Nepal</p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>977 9840708961</p>
+
+
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@youthclub.com">support@youthclub.com</a></p>
+        </div>
+        <p class="footer-company-name">© Youth Club Nepal 2022</p>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>About the company</span>
+            We actively involve young generation in social work,gives<br>  training and skill building 
+            campaigns.</p>
+        <div class="footer-icons">
+            <a href="https://www.facebook.com/youthfordevelopmentandsupport"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
